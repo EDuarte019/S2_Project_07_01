@@ -17,11 +17,37 @@
 
 
 /* Hidden Objects */
-
-
+/* The nav, footer and article are hidden when printed. */
+nav,
+footer,
+article {
+        display: none;
+}
 
 
 
 
 
 /* Comic Book Sheet Styles */
+/* The width is in 6 inches. The margin is centered in the page. */
+section#sheet {
+        width: 6in;
+        margin: 0in auto;
+}
+
+/* the different sizes are displayed with their repspected size when printed. */
+img.size1 {
+        width: 5in;
+}
+
+img.size2 {
+        width: 3in;
+}
+
+img.size3 {
+        width: 2in;
+}
+
+img.size4 {
+        width: 1.5in;
+}
